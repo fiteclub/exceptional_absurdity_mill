@@ -9,7 +9,19 @@ RSpec.describe ExceptionalAbsurdityMill do
     expect(ExceptionalAbsurdityMill::Base::random).to be_an_instance_of(String)
   end
 
-  it "creates an array of hashes" do
-    expect(ExceptionalAbsurdityMill::Base::hash_array(1,1)).to be_an_instance_of(Array)
+  describe 'creates an array of hashes' do
+    let(:array_of_hashes) { ExceptionalAbsurdityMill::Base::hash_array(4,6) }
+    it 'is an array' do
+      expect(array_of_hashes).to be_an_instance_of(Array)
+    end
+    it 'elements contain a hash' do
+      expect(array_of_hashes.first).to be_an_instance_of(Hash)
+    end
+    it 'has the correct number of rows' do
+      expect(array_of_hashes.length).to eq(6)
+    end
+    it 'has the correct number of columns' do
+      expect(array_of_hashes.first.length).to eq(4)
+    end
   end
 end
