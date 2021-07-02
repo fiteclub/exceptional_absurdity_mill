@@ -3,6 +3,7 @@
 # require 'faker'
 
 require_relative "exceptional_absurdity_mill/version"
+require "faker"
 
 module ExceptionalAbsurdityMill
   class Error < StandardError; end
@@ -21,7 +22,7 @@ module ExceptionalAbsurdityMill
     end
 
     def self.random
-      %w[interior crocodile alligator chevrolet movie theatre].sample
+      "#{Faker::Fantasy::Tolkien.character}"
     end
   end
 end
