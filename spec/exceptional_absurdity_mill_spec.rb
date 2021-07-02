@@ -5,7 +5,11 @@ RSpec.describe ExceptionalAbsurdityMill do
     expect(ExceptionalAbsurdityMill::VERSION).not_to be nil
   end
 
-  it "does something useful" do
-    expect(false).to eq(true)
+  it "produces a string" do
+    expect(ExceptionalAbsurdityMill::Base::random).to be_an_instance_of(String)
+  end
+
+  it "creates an array of hashes" do
+    expect(ExceptionalAbsurdityMill::Base::hash_array(1,1)).to be_an_instance_of(Array)
   end
 end
