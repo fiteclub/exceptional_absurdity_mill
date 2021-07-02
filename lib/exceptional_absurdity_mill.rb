@@ -1,7 +1,5 @@
 # frozen_string_literal: true
 
-# require 'faker'
-
 require_relative "exceptional_absurdity_mill/version"
 require "faker"
 
