@@ -22,7 +22,7 @@ module ExceptionalAbsurdityMill
     end
 
     def self.random
-      "#{Faker::Fantasy::Tolkien.character}"
+      Faker::Fantasy::Tolkien.character.to_s
     end
   end
 end
