@@ -9,19 +9,19 @@ module ExceptionalAbsurdityMill
 
   class Base
     def self.hash_array(number_of_columns, number_of_rows)
-      column_names = number_of_columns.times.each_with_object([]) do |n, keys_array|
-        keys_array[n] = "lorem #{n}" 
+      column_names = number_of_columns.times.each_with_object([]) do |n, names_array|
+        names_array[n] = "#{random}-#{n}"
       end
 
       number_of_rows.times.each_with_object([]) do |n, new_array|
-        new_array[n] = column_names.each_with_object({}) do |column, new_hash |
-          new_hash[column] = "ipsum"
+        new_array[n] = column_names.each_with_object({}) do |column, new_hash|
+          new_hash[column] = random
         end
       end
     end
 
     def self.random
-      "This is your random string"
+      %w[interior crocodile alligator chevrolet movie theatre].sample
     end
   end
 end
