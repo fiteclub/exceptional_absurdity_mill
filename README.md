@@ -21,7 +21,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'exceptional_absurdity_mill'
+  gem 'exceptional_absurdity_mill', git: 'https://github.com/fiteclub/exceptional_absurdity_mill.git', branch: 'master'
 ```
 
 And then execute:
