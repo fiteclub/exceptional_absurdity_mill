@@ -5,16 +5,12 @@
 >Has this ever happened to you?:
 > <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Them: Can you just quickly pull this data for me?<br><br>Me: Sure, let me just: <br><br>SELECT * FROM some_ideal_clean_and_pristine.table_that_you_think_exists</p>&mdash; Seth Rosen 🇺🇸 (@sethrosen) <a href="https://twitter.com/sethrosen/status/1252291581320757249?ref_src=twsrc%5Etfw">April 20, 2020</a></blockquote>
 
-> Well fret no longer, my tragically foredoomed friend!  With the *Exceptional Absurdity Mill* you can easily generate a mountain of delectible data to meet that Friday-afternoon-must-have-it-now request!
+> Fret no longer, my tragically foredoomed friend!  With the *Exceptional Absurdity Mill* you can easily generate a mountain of delectible data to meet that Friday-afternoon-must-have-it-now request!
 > - Obscure the inadequate!
 > - Obfuscate mediocrity!
 > - Impress your friends and co-workers!
 > - ~~Profit!~~
 
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/exceptional_absurdity_mill`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
 
 ## Installation
 
